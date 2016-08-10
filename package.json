@@ -1,0 +1,47 @@
+{
+  "name": "react-pokemon-gif",
+  "version": "1.0.0",
+  "description": "",
+  "license": "MIT",
+  "author": "Jack R. Zhang <15jzhang@gmail.com>",
+  "keywords": [],
+  "main": "build/react-pokemon-gif.bundle",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jackrzhang/react-pokemon-gif"
+  },
+  "bugs": {
+    "url": "https://github.com/jackrzhang/react-pokemon-gif/issues"
+  },
+  "files": [
+    "*.md",
+    "LICENSE",
+    "lib",
+    "build"
+  ],
+  "scripts": {
+    "build": "mkdir -p build && ./node_modules/.bin/webpack",
+    "prepublish": "npm run build",
+    "lint": "./node_modules/.bin/eslint lib test",
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.13.2",
+    "babel-eslint": "^6.1.2",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.13.2",
+    "babel-preset-react": "^6.11.1",
+    "babel-preset-stage-0": "^6.5.0",
+    "chai": "^3.5.0",
+    "enzyme": "^2.4.1",
+    "eslint": "^3.2.2",
+    "eslint-config-airbnb-base": "^5.0.1",
+    "eslint-plugin-import": "^1.12.0",
+    "mocha": "^3.0.2",
+    "webpack": "^1.13.1"
+  },
+  "dependencies": {
+    "react": "^15.3.0",
+    "react-dom": "^15.3.0"
+  }
+}
