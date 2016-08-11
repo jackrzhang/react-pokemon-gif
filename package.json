@@ -24,7 +24,7 @@
     "build": "mkdir -p build && ./node_modules/.bin/webpack",
     "prepublish": "npm run build",
     "lint": "./node_modules/.bin/eslint lib test",
-    "test": "echo \"Error: no test specified\" && exit 0"
+    "test": "./node_modules/.bin/mocha --reporter spec .specsetup.js test/**/*.spec.js"
   },
   "devDependencies": {
     "babel-core": "^6.13.2",
@@ -39,6 +39,7 @@
     "eslint-config-airbnb-base": "^5.0.1",
     "eslint-plugin-import": "^1.12.0",
     "mocha": "^3.0.2",
+    "react-addons-test-utils": "^15.3.0",
     "webpack": "^1.13.1"
   },
   "dependencies": {
