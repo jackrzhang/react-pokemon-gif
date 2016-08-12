@@ -11,6 +11,7 @@
     "spread": true
   },
   "rules": {
+    "no-prototype-builtins": 0,
     "import/no-extraneous-dependencies": 0,
     "react/jsx-filename-extension": 0,
     "import/imports-first": 0,
