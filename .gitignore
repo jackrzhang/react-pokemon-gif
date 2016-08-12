@@ -3,5 +3,8 @@
 node_modules/
 npm-debug.log
 
+build/react-pokemon-gif.js
+build/pokemon-prop-type.js
+
 *bundle.js
 *bundle.js.map
