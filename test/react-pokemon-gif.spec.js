@@ -7,10 +7,10 @@ import { shallow, mount, render } from 'enzyme';
 import PokemonGif from './../lib/react-pokemon-gif';
 
 describe('<PokemonGif />', () => {
-  it('should have props: pokemon & width', () => {
+  it('should have props: pokemon & height', () => {
     const wrapper = shallow(<PokemonGif pokemon={25} />);
     expect(wrapper.props().pokemon).to.be.defined;
-    expect(wrapper.props().width).to.be.defined;
+    expect(wrapper.props().height).to.be.defined;
   });
 
   // Stub on console.error to spy on and supress output from React PropTypes warnings
