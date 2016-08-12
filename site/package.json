@@ -7,7 +7,7 @@
   "private": true,
   "license": "MIT",
   "scripts": {
-    "start": "node webpack/devs-server.js",
+    "start": "node webpack/dev-server.js",
     "clean": "rm build/bundle.*",
     "build": "NODE_ENV=production webpack --config webpack/config.prod.js",
     "prod": "npm run build && open build/index.html",

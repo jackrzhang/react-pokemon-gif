@@ -7,7 +7,7 @@ import { shallow, mount, render } from 'enzyme';
 import PokemonGif from './../lib/react-pokemon-gif';
 
 describe('<PokemonGif />', () => {
-  it('should have props: pokemon & height', () => {
+  it('should have props: pokemon, className & height', () => {
     const wrapper = shallow(<PokemonGif pokemon={25} />);
     expect(wrapper.props().pokemon).to.be.defined;
     expect(wrapper.props().height).to.be.defined;

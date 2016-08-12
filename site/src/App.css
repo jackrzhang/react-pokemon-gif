@@ -1,18 +1,30 @@
-@import url(https://fonts.googleapis.com/css?family=Raleway:300,600);
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,400);
 
 body {
   height: 100%;
   width: 100%;
-  color: rgb(235, 235, 235);
-  background-color: rgb(25, 25, 25);
-  font-family: 'Raleway', 'Arial';
+  color: rgb(25, 25, 25);
+  background-color: rgb(245, 245, 245);
 }
 
 .app {
-  margin: 30vh 0 0 50px;
+  margin: 3vh 0;
+  padding-top: 15px;
+  text-align: center;
+  text-transform: none;
+  letter-spacing: 1px;
+  font-family: 'Roboto', 'Arial', 'sans-serif';
 }
 
 .title {
   font-weight: 400;
   font-size: 30px;
+}
+
+.instructions {
+
+}
+
+.pokemon {
+  margin: 50px;
 }
