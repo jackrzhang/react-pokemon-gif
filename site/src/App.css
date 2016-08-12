@@ -7,6 +7,15 @@ body {
   background-color: rgb(245, 245, 245);
 }
 
+a {
+  text-decoration: none;
+  color: rgb(25, 25, 25);
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 .app {
   margin: 3vh 0;
   padding-top: 15px;
@@ -22,9 +31,34 @@ body {
 }
 
 .instructions {
+  font-size: 15px;
+  margin: 35px auto 10px;
+}
 
+.input {
+  outline: none;
+  padding: 7px 10px;
+  margin: 0;
+  border: 2px solid rgb(25, 25, 25);
+  letter-spacing: 1px;
+  font-family: 'Roboto', 'Arial', 'sans-serif';
+  font-size: 17px;
 }
 
 .pokemon {
-  margin: 50px;
+  display: block;
+  margin: 50px auto 100px;
+}
+
+.credit {
+  position: fixed;
+  font-size: 12px;
+  bottom: 3vh;
+  padding-bottom: 15px;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  margin: 0;
+  color: rgb(25, 25, 25);
+  background-color: rgb(245, 245, 245);
+  border-radius: 10px;
 }
