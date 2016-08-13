@@ -1,5 +1,5 @@
 /* eslint-disable global-require */
-const { BUILD_DIR, SRC_DIR } = require('./constants');
+const { BUILD_DIR, SRC_DIR, REACT_POKEMON_GIF_DIR } = require('./constants');
 
 const config = {
   name: 'production',
@@ -14,7 +14,10 @@ const config = {
     loaders: [
       {
         test: /.js$|.jsx$/,
-        include: SRC_DIR,
+        include: [
+          SRC_DIR,
+          REACT_POKEMON_GIF_DIR
+        ],
         loaders: ['react-hot', 'babel']
       },
       {
