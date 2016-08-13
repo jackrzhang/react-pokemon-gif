@@ -13,6 +13,9 @@ Try a demo at [react-pokemon-gif.jackrzhang.com](http://react-pokemon-gif.jackrz
 $ npm install react react-dom react-pokemon-gif --save
 ```
 
+##Requirements
+[Node.js](https://nodejs.org) v6+
+
 ##API - Props
 ####`pokemon` : string or number
 The identifier for a specific pokemon. If type string, a [valid pokemon name](http://www.pokemon.com/us/pokedex/) is expected. If type number, a valid pokedex number (1 - 721) is expected.
