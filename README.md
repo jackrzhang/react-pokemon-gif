@@ -1,3 +1,5 @@
+*This package is deprecated. For an awesome, more recent alternative, see [react-poke-sprites](https://github.com/anshumanv/react-poke-sprites).*
+
 # react-pokemon-gif
 [![npm](https://img.shields.io/npm/v/react-pokemon-gif.svg)](https://www.npmjs.com/package/react-pokemon-gif)
 [![Build Status](https://travis-ci.org/jackrzhang/react-pokemon-gif.svg?branch=master)](https://travis-ci.org/jackrzhang/react-pokemon-gif)
