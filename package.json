@@ -1,6 +1,6 @@
 {
   "name": "react-pokemon-gif",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "React component for animated pokemon sprites.",
   "license": "MIT",
   "author": "Jack R. Zhang <15jzhang@gmail.com>",
