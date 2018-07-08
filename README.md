@@ -1,12 +1,11 @@
-*This package is deprecated. For an awesome, more recent alternative, see [react-poke-sprites](https://github.com/anshumanv/react-poke-sprites).*
+*This package is deprecated. For an alternative, see [react-poke-sprites](https://github.com/anshumanv/react-poke-sprites).*
 
 # react-pokemon-gif
 [![npm](https://img.shields.io/npm/v/react-pokemon-gif.svg)](https://www.npmjs.com/package/react-pokemon-gif)
 [![Build Status](https://travis-ci.org/jackrzhang/react-pokemon-gif.svg?branch=master)](https://travis-ci.org/jackrzhang/react-pokemon-gif)
 [![dependencies Status](https://david-dm.org/jackrzhang/react-pokemon-gif/status.svg)](https://david-dm.org/jackrzhang/react-pokemon-gif)
 
-A react.js component exposing a simple interface for animated sprites of all 721 pokemon.
-Credits to the community at [Pokestadium](http://www.pokestadium.com/tools/sprites) for awesome sprites.
+This is a react component that renders an animated sprite of a pokemon. The sprites are from [Pokestadium](http://www.pokestadium.com/tools/sprites).
 
 Try a demo at [react-pokemon-gif.jackrzhang.com](http://react-pokemon-gif.jackrzhang.com).
 
